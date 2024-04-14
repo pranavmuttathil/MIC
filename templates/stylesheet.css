@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #404040;
+}
+
+.header {
+    position:fixed;
+    font-size: xx-large;
+    width: 100%;
+    padding: 20px 10%;
+    align-items: center;
+    display: flex;
+    top:0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    border-bottom: 3px solid #B93C48;
+}
+.header-text{
+    float:left;
+    
+
+}
+
+
+
+
+#ass1 {
+    justify-content: space-between;
+    border: solid #276221 1px;
+    background-color: #D8FFB1;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-width: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#logo1 {
+    border-radius:70%;
+    float:right;
+    margin-right:10px;
+    height: 100px;
+    width: 100px;
+}
+
+.text-container{
+    overflow: hidden;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    
+    
+}
+.container {
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    
+}
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.info-box {
+    background-color: #D8FFB1;
+    margin-right: 70%;
+    margin-left: 2%;
+    border-width: 10px;
+    border: solid #276221 1px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.projects{
+    width: 100%;
+}
+
+.skills-header{
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+}
+.box {
+    border: 2px solid black; 
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    flex:200px;
+    background-color: aqua;
+    line-height: 1.5; 
+    padding: 10px; 
+  }
+
+footer{
+    background-color:black;
+}
+
+.iconsclass {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.iconsclass a i{
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+ul {
+    color: black;
+}

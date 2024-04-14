@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Columns with Slider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .column {
+            flex: 0 0 30%; /* Flexbox shorthand for flex-grow, flex-shrink, flex-basis */
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .column:last-child {
+            margin-right: 0;
+        }
+        .slider {
+            width: 100%;
+            height: 200px;
+            background-image: url('slider-image.jpg'); /* Replace 'slider-image.jpg' with your slider image */
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Slider Title</h1>
+        <!-- Add your slider content here -->
+    </header>
+    <div class="container">
+        <div class="column">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+        </div>
+        <div class="column">
+            <h2>Column 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+        </div>
+        <div class="column">
+            <h2>Column 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+        </div>
+    </div>
+</body>
+</html>
